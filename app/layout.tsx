@@ -11,6 +11,9 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "MEvents",
   description: "A Platform for event management",
+  icons: {
+    icon: '/assets/logo.png'
+  }
 };
 
 export default function RootLayout({
